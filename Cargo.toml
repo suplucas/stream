@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+# runtime async do rust
+tokio = { version = "1", features = ["full"] }
+
+webrtc = "0.11"
+
+# lib capturar tela
+scrap = "0.5"
